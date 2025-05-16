@@ -2,6 +2,8 @@
 
 This repository is the official implementation of [Eliminating Hallucination-Induced Errors in LLM Code Generation with Functional Clustering]().
 
+![Functional-cluster pipeline](results/figures/method-diagram.png)
+
 ## Requirements
 
 To install requirements:
@@ -71,10 +73,10 @@ python scripts/eval_clusters.py -c config/humaneval-gpt.json \
 
 # 4 Visualize
 python scripts/plot_clusters.py -c config/humaneval-gpt.json -s \
-       -o results/plots/humaneval-conf-scatter.png
+       -o results/figures/humaneval-conf-scatter.png
 
 python scripts/plot_clusters.py -c config/humaneval-gpt.json -l \
-       -o results/plots/humaneval-cumulative.png
+       -o results/figures/humaneval-cumulative.png
 ```
 
 LiveCodeBench:
@@ -98,10 +100,10 @@ python scripts/eval_clusters.py -c config/lcb-gpt-claude.json \
 
 # 4 Visualize
 python scripts/plot_clusters.py -c config/lcb-gpt-claude.json -s \
-       -o results/plots/lcb-conf-scatter.png
+       -o results/figures/lcb-conf-scatter.png
 
 python scripts/plot_clusters.py -c config/lcb-gpt-claude.json -l \
-       -o results/plots/lcb-cumulative.png
+       -o results/figures/lcb-cumulative.png
 ```
 
 ### Adding a new dataset
