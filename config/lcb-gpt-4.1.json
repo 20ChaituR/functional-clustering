@@ -1,0 +1,16 @@
+{
+    "dataset": "Live Code Bench",
+    "models": [
+        {"name": "gpt-4.1-2025-04-14", "temperature": 1.1},
+        {"name": "gpt-4.1-mini-2025-04-14", "temperature": 1.1},
+        {"name": "gpt-4.1-nano-2025-04-14", "temperature": 1.1}
+    ],
+    "n": 30,
+
+    "test_model": {"name": "gpt-4o", "temperature": 1.0},
+    "test_retries": 5,    
+
+    "function_file": "results/lcb-gpt-claude/functions4.1-0.csv",
+    "function_files": "results/lcb-gpt-claude/functions4.1",
+    "cluster_file": "results/lcb-gpt-claude/clusters4.1.csv"
+}

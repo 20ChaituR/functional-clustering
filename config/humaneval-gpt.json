@@ -1,0 +1,16 @@
+{
+    "dataset": "Human Eval",
+    "models": [
+        {"name": "gpt-4o", "temperature": 1.1}
+    ],
+    "n": 50,
+
+    "test_model": {"name": "gpt-4o", "temperature": 1.0},
+    "test_retries": 5,    
+
+    "function_file": "results/human-eval/functions1.csv",
+    "function_files": "results/human-eval/function",
+    "cluster_file": "results/human-eval/clusters.csv",
+
+    "reset": false
+}
