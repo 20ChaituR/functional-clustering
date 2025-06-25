@@ -1,6 +1,6 @@
 # Eliminating Hallucination-Induced Errors in LLM Code Generation with Functional Clustering
 
-This repository is the official implementation of [Eliminating Hallucination-Induced Errors in LLM Code Generation with Functional Clustering]().
+This repository is the official implementation of [Eliminating Hallucination-Induced Errors in LLM Code Generation with Functional Clustering](https://arxiv.org/abs/2506.11021).
 
 ![Functional-cluster pipeline](results/figures/method-diagram.png)
 
